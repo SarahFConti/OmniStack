@@ -19,7 +19,7 @@ module.exports = {
 // multer.diskStorage -> ele vai salvar as imagens aqui na aplicacao
 // destination -> define qual pasta sera guardado
 // na raiz foi criado o upload onde vai ter as imagens
-// path.resolve -> ajuda a separar o caminho por , para q todo sistema operacional possa entender o caminho 
+// path.resolve -> ajuda a separar o caminho por , para q todo sistema operacional possa entender o caminho
 // dirname -> informa o diretorio que definimos
 // filemame -> usamos para defnir que os uploads teram um nome e nao um id aleatorio
 // req -> minha req file ->  dados do arq cb -> callback que eh uma funcao que vai ser chamada quando o nome do arq tiver pronto
